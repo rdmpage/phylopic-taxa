@@ -4197,7 +4197,7 @@ $names=array(
 
 $names = array('Clubionidae','Gradungulidae','Pisauridae','Psechridae','Salticidae','Theridiidae');
 
-$names = array('Camaenidae');
+$names = array('Heptageniidae','Potamanthidae');
 
 
 //----------------------------------------------------------------------------------------
