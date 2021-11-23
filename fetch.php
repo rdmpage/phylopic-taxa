@@ -4197,7 +4197,10 @@ $names=array(
 
 $names = array('Clubionidae','Gradungulidae','Pisauridae','Psechridae','Salticidae','Theridiidae');
 
-$names = array('Heptageniidae','Potamanthidae');
+$names = array('Tephritidae','Thaumaleidae');
+
+$names = array('Arthoniomycetes','Leotiomycetes','Neosporidesmium','Sordariomycetes','Vanakripa', 'Fungi', 'Hypocreales','Erysiphales','Erysiphaceae','Fomitopsidaceae');
+
 
 
 //----------------------------------------------------------------------------------------
