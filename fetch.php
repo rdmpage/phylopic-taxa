@@ -4201,7 +4201,7 @@ $names = array('Tephritidae','Thaumaleidae');
 
 $names = array('Arthoniomycetes','Leotiomycetes','Neosporidesmium','Sordariomycetes','Vanakripa', 'Fungi', 'Hypocreales','Erysiphales','Erysiphaceae','Fomitopsidaceae');
 
-
+$names = array('Agyrtidae', 'Baetidae', 'Leptophlebiidae', 'Thaumaleidae', 'Erebidae', 'Araneidae','Archaeidae','Clubionidae','Pisauridae','Salticidae','Symphytognathidae');
 
 //----------------------------------------------------------------------------------------
 function get_image_filename($base_dir, $name, $extension = 'svg')
