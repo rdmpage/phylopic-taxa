@@ -4205,6 +4205,8 @@ $names = array('Agyrtidae', 'Baetidae', 'Leptophlebiidae', 'Thaumaleidae', 'Ereb
 
 $names = array('Muscidae','Conopidae','Thaumaleidae','Cricetidae', 'Eomyidae', 'Ligerimys','Mephitidae','Dasyuromorphia','Dasyuridae', 'Myoictis','Didelphimorphia','Coelacanthiformes');
 
+$names=array('Pseudoscorpiones', 'Chernetidae', 'Isotomidae','Agyrtidae','Diapheromeridae','Hydropsychidae','Muscidae','Conopidae');
+
 //----------------------------------------------------------------------------------------
 function get_image_filename($base_dir, $name, $extension = 'svg')
 {
