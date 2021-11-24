@@ -4207,6 +4207,8 @@ $names = array('Muscidae','Conopidae','Thaumaleidae','Cricetidae', 'Eomyidae', '
 
 $names=array('Pseudoscorpiones', 'Chernetidae', 'Isotomidae','Agyrtidae','Diapheromeridae','Hydropsychidae','Muscidae','Conopidae');
 
+$names=array('Proteobacteria','Bacteroidetes','Flavobacteriia','Flavobacteriales','Flavobacteriaceae','Firmicutes','Clostridia','Betaproteobacteria','Burkholderiales','Alcaligenaceae','Deltaproteobacteria','Desulfobulbaceae');
+
 //----------------------------------------------------------------------------------------
 function get_image_filename($base_dir, $name, $extension = 'svg')
 {
