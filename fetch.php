@@ -4214,6 +4214,11 @@ $names=array('Kalotermitidae','Cryptocercidae','Psocodea','Lachesillidae','Hydro
 $names=array('Deinopidae','Gradungulidae','Soricomorpha','Paucituberculata','Dicroglossidae','Ptychadenidae','Leiuperidae','Megophryidae','Feirana','Whatcheeriidae','Anchisauridae','Polycladida','Homolodromiidae','Cambaridae','Hexanauplia','Sphaerotheriida','Diplostraca',
 'Orbiniidae','Polygonatum','Solanales','Solanaceae','Gentianales','Rubiaceae','Huerteales','Lepanthes');
 
+
+$names=array('Tremellomycetes','Tremellales','Cystofilobasidiales','Hymenochaetaceae','Hymenochaetales','Russulales','Russulaceae','Boletales','Gyroporaceae','Cantharellales','Gomphales','Clavariadelphaceae','Cortinariaceae','Hygrophoraceae','Hymenogastraceae','Inocybaceae','Omphalotaceae','Psathyrellacea');
+
+$names=array('Actinobacteria','Streptomycetaceae','Microbacteriaceae', 'Actinomycetales', 'Oomycota');
+
 //----------------------------------------------------------------------------------------
 function get_image_filename($base_dir, $name, $extension = 'svg')
 {
