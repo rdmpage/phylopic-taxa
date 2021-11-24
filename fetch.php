@@ -4203,6 +4203,8 @@ $names = array('Arthoniomycetes','Leotiomycetes','Neosporidesmium','Sordariomyce
 
 $names = array('Agyrtidae', 'Baetidae', 'Leptophlebiidae', 'Thaumaleidae', 'Erebidae', 'Araneidae','Archaeidae','Clubionidae','Pisauridae','Salticidae','Symphytognathidae');
 
+$names = array('Muscidae','Conopidae','Thaumaleidae','Cricetidae', 'Eomyidae', 'Ligerimys','Mephitidae','Dasyuromorphia','Dasyuridae', 'Myoictis','Didelphimorphia','Coelacanthiformes');
+
 //----------------------------------------------------------------------------------------
 function get_image_filename($base_dir, $name, $extension = 'svg')
 {
