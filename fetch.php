@@ -4219,6 +4219,13 @@ $names=array('Tremellomycetes','Tremellales','Cystofilobasidiales','Hymenochaeta
 
 $names=array('Actinobacteria','Streptomycetaceae','Microbacteriaceae', 'Actinomycetales', 'Oomycota');
 
+$names=array('Hypochilidae');
+
+$names=array('Accipitriformes', 'Osmeriformes', 'Bathylagidae', 
+'Sclerorhynchidae', 'Eomyidae',
+'Chlorophyta', 'Ulvophyceae', 'Cycadopsida', 'Cycadales',
+'Polypodiopsida','Gentianales', 'Rubiaceae');
+
 //----------------------------------------------------------------------------------------
 function get_image_filename($base_dir, $name, $extension = 'svg')
 {
