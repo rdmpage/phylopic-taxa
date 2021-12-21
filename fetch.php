@@ -4221,10 +4221,7 @@ $names=array('Actinobacteria','Streptomycetaceae','Microbacteriaceae', 'Actinomy
 
 $names=array('Hypochilidae');
 
-$names=array('Accipitriformes', 'Osmeriformes', 'Bathylagidae', 
-'Sclerorhynchidae', 'Eomyidae',
-'Chlorophyta', 'Ulvophyceae', 'Cycadopsida', 'Cycadales',
-'Polypodiopsida','Gentianales', 'Rubiaceae');
+$names=array('Erebidae');
 
 //----------------------------------------------------------------------------------------
 function get_image_filename($base_dir, $name, $extension = 'svg')
