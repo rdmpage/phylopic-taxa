@@ -4221,7 +4221,9 @@ $names=array('Actinobacteria','Streptomycetaceae','Microbacteriaceae', 'Actinomy
 
 $names=array('Hypochilidae');
 
-$names=array('Calamoceratidae','Hydrobiosidae','Limnephilidae');
+$names=array('Thomisidae','Scytodidae','Symphytognathidae','Tetragnathidae','Thomisidae','Gradungulidae','Hypochilidae');
+
+$names=array('Atyidae','Cambaridae','Diogenidae','Gecarcinucidae','Homolodromiidae','Palaemonidae','Potamonautidae');
 
 //----------------------------------------------------------------------------------------
 function get_image_filename($base_dir, $name, $extension = 'svg')
