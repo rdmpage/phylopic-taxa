@@ -4225,7 +4225,7 @@ $names=array('Thomisidae','Scytodidae','Symphytognathidae','Tetragnathidae','Tho
 
 $names=array('Atyidae','Cambaridae','Diogenidae','Gecarcinucidae','Homolodromiidae','Palaemonidae','Potamonautidae');
 
-$names=array('Sarcoptiformes');
+$names=array('Agelenidae','Araneidae','Archaeidae','Austrochilidae','Clubionidae','Corinnidae','Deinopidae','Dysderidae','Gradungulidae','Hypochilidae','Idiopidae','Linyphiidae','Liocranidae','Nesticidae','Ochyroceratidae','Oonopidae','Palpimanidae','Pisauridae','Salticidae','Scytodidae','Symphytognathidae','Telemidae','Tetragnathidae','Theraphosidae','Thomisidae');
 
 //----------------------------------------------------------------------------------------
 function get_image_filename($base_dir, $name, $extension = 'svg')
