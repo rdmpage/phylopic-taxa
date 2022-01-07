@@ -4225,7 +4225,7 @@ $names=array('Thomisidae','Scytodidae','Symphytognathidae','Tetragnathidae','Tho
 
 $names=array('Atyidae','Cambaridae','Diogenidae','Gecarcinucidae','Homolodromiidae','Palaemonidae','Potamonautidae');
 
-$names=array('Chthoniidae','Neobisiidae');
+$names=array('Sarcoptiformes');
 
 //----------------------------------------------------------------------------------------
 function get_image_filename($base_dir, $name, $extension = 'svg')
