@@ -103,6 +103,21 @@ function get($url, $userAgent = '', $content_type = '')
 
 $names=array('Ixodida');
 
+$names=array(
+'Protozoa',
+'Amoebozoa',
+'Choanozoa',
+'Difflugia',
+'Euglenozoa',
+'Filosia',
+'Lancettopsis',
+'Microsporidia',
+'Mycetozoa',
+
+);
+
+
+
 
 //----------------------------------------------------------------------------------------
 function get_image_filename($base_dir, $name, $extension = 'svg')
