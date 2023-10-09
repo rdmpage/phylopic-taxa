@@ -137,6 +137,99 @@ $names=array(
 
 );
 
+$names = array(
+'Nemertea',
+'Orthonectida',
+
+'Archaeognatha',
+'Blattodea',
+'Caloneurodea',
+'Cnemidolestodea',
+'Coleoptera',
+'Dermaptera',
+'Diaphanopterodea',
+'Diptera',
+'Embioptera',
+'Eoblattida',
+'Ephemeroptera',
+'Glosselytrodea',
+'Grylloblattodea',
+'Hemiptera',
+'Hymenoptera',
+'Hypoperlida',
+'Lepidoptera',
+'Mantodea',
+'Mantophasmatodea',
+'Mecoptera',
+'Megaloptera',
+'Meganisoptera',
+'Megasecoptera',
+'Miomoptera',
+'Neuroptera',
+'Odonata',
+'Orthoptera',
+'Palaeodictyoptera',
+'Paoliida',
+'Phasmida',
+'Plecoptera',
+'Protocoleoptera',
+'Protorthoptera',
+'Psocodea',
+'Raphidioptera',
+'Reculoidea',
+'Siphonaptera',
+'Strepsiptera',
+'Thysanoptera',
+'Titanoptera',
+'Trichoptera',
+'Zoraptera',
+'Zygentoma',
+
+);
+
+
+$names = array(
+'Andesianoidea',
+'Bombycoidea',
+'Calliduloidea',
+'Carposinoidea',
+'Choreutoidea',
+'Cossoidea',
+'Drepanoidea',
+'Epermenioidea',
+'Eriocranioidea',
+'Galacticoidea',
+'Gelechioidea',
+'Geometroidea',
+'Gracillarioidea',
+'Hepialoidea',
+'Heterobathmioidea',
+'Hyblaeoidea',
+'Immoidea',
+'Lasiocampoidea',
+'Lophocoronoidea',
+'Micropterigoidea',
+'Mimallonoidea',
+'Neopseustoidea',
+'Nepticuloidea',
+'Noctuoidea',
+'Palaephatoidea',
+'Papilionoidea',
+'Pterophoroidea',
+'Pyraloidea',
+'Schreckensteinioidea',
+'Simaethistoidea',
+'Thyridoidea',
+'Tineoidea',
+'Tischerioidea',
+'Tortricoidea',
+'Urodoidea',
+'Whalleyanoidea',
+'Yponomeutoidea',
+'Zygaenoidea'
+
+);
+
 
 
 
@@ -202,6 +295,8 @@ function create_image_filename($base_dir, $name, $extension = 'svg')
 
 $base_dir = dirname(__FILE__) . '/images';
 
+$build = 262;
+
 $count = 1;
 
 foreach ($names as $name)
@@ -227,7 +322,7 @@ foreach ($names as $name)
 	
 	if ($ok)
 	{
-		echo $image_filename . "\n";
+		echo "We have this already: $image_filename\n";
 	}
 	else
 	{
@@ -235,7 +330,7 @@ foreach ($names as $name)
 		$image_type = '';
 
 		// name search 
-		$url = 'https://api.phylopic.org/nodes?build=225&filter_name=' . urlencode(strtolower($name)) . '&page=0';
+		$url = 'https://api.phylopic.org/nodes?build=' . $build . '&filter_name=' . urlencode(strtolower($name)) . '&page=0';
 		
 		$json = get($url);
 	
