@@ -232,6 +232,18 @@ $names = array(
 
 
 
+$names = array(
+/*
+'Blaberidae',
+'Blattidae',
+'Ectobiidae',
+'Termitidae',
+'Mastotermitidae',*/
+'Astigmata',
+'Opilioacarida',
+'Xenodermidae',
+);
+
 
 //----------------------------------------------------------------------------------------
 function get_image_filename($base_dir, $name, $extension = 'svg')
@@ -296,6 +308,7 @@ function create_image_filename($base_dir, $name, $extension = 'svg')
 $base_dir = dirname(__FILE__) . '/images';
 
 $build = 262;
+$build = 354;
 
 $count = 1;
 
