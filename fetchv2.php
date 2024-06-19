@@ -244,6 +244,8 @@ $names = array(
 'Xenodermidae',
 );
 
+$names = array('Aeschnidiidae','Aeshnidae','Calopterygidae','Chlorocyphidae','Coenagrionidae','Gomphidae','Libellulidae','Platycnemididae','Polythoridae','Protoneuridae');
+
 
 //----------------------------------------------------------------------------------------
 function get_image_filename($base_dir, $name, $extension = 'svg')
@@ -309,6 +311,7 @@ $base_dir = dirname(__FILE__) . '/images';
 
 $build = 262;
 $build = 354;
+$build = 372;
 
 $count = 1;
 
