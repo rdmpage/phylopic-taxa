@@ -353,6 +353,21 @@ $names = array(
 'Magnoliophyta',
 );
 
+$names=array(
+'Agoristenidae',
+'Biantidae',
+'Cosmetidae',
+'Cranaidae',
+'Epedanidae',
+'Escadabiidae',
+'Gonyleptidae',
+'Ischyropsalididae',
+'Phalangiidae',
+'Sironidae',
+'Stygnidae',
+'Triaenonychidae',
+);
+
 //----------------------------------------------------------------------------------------
 function get_image_filename($base_dir, $name, $extension = 'svg')
 {
@@ -421,6 +436,7 @@ $build = 372;
 $build = 396;
 $build = 402;
 $build = 454;
+$build = 455;
 
 $count = 1;
 
