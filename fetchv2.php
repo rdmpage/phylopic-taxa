@@ -354,18 +354,16 @@ $names = array(
 );
 
 $names=array(
-'Agoristenidae',
-'Biantidae',
-'Cosmetidae',
-'Cranaidae',
-'Epedanidae',
-'Escadabiidae',
-'Gonyleptidae',
-'Ischyropsalididae',
-'Phalangiidae',
-'Sironidae',
-'Stygnidae',
-'Triaenonychidae',
+'Bothriuridae',
+'Buthidae',
+'Diplocentridae',
+'Euscorpiidae',
+'Iuridae',
+'Pseudochactidae',
+'Scorpionidae',
+'Scorpiopidae',
+'Troglotayosicidae',
+'Vaejovidae',
 );
 
 //----------------------------------------------------------------------------------------
