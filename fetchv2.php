@@ -8092,7 +8092,7 @@ $names=array(
 
 );
 
-$names=['Aculeata'];
+$names=['Muridae'];
 
 //----------------------------------------------------------------------------------------
 function get_image_filename($base_dir, $name, $extension = 'svg')
