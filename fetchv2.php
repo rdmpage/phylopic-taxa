@@ -8092,6 +8092,8 @@ $names=array(
 
 );
 
+$names=['Aculeata'];
+
 //----------------------------------------------------------------------------------------
 function get_image_filename($base_dir, $name, $extension = 'svg')
 {
